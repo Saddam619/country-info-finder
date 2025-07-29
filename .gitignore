@@ -1,0 +1,15 @@
+# macOS or Windows system files
+.DS_Store
+Thumbs.db
+
+# Node modules (if ever used in future)
+node_modules/
+
+# Logs
+*.log
+
+# Docker image artifacts
+*.tar
+
+# Env config (in case you add API keys or secrets later)
+.env
