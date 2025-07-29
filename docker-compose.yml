@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  web1:
+    image: Saddam619/country-info-app:v1
+    container_name: web1
+    expose:
+      - "80"
+
+  web2:
+    image: Saddam619/country-info-app:v1
+    container_name: web2
+    expose:
+      - "80"
+
+  haproxy:
+    image: haproxy:alpine
+    container_name: haproxy
+    ports:
+      - "8080:80"
+    volumes:
+      - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg
+    depends_on:
+      - web1
+      - web2
