@@ -1,6 +1,12 @@
-# Country Info Finder
+ # Country Info Finder
 
 A simple web app that lets you search for and display detailed information about any country using the REST Countries API.
+
+---
+
+## 📽️ Demo Video
+
+Watch the demo video here: [https://youtu.be/fsmT8BTqffM](https://youtu.be/fsmT8BTqffM)
 
 ---
 
@@ -34,7 +40,7 @@ A simple web app that lets you search for and display detailed information about
 1. Clone or download the repository  
 2. Open `index.html` directly in your web browser
 
-> **Note:** Some browsers restrict API calls from local files. In that case, use a local server (e.g., VS Code Live Server extension) or run with Node.js server.
+> **Note:** Some browsers restrict API calls from local files. In that case, use a local server (e.g., VS Code Live Server extension) or run with a Node.js server.
 
 ---
 
