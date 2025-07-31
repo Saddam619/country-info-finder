@@ -1,4 +1,4 @@
- # Country Info Finder
+# Country Info Finder
 
 A simple web app that lets you search for and display detailed information about any country using the REST Countries API.
 
@@ -6,7 +6,7 @@ A simple web app that lets you search for and display detailed information about
 
 ## 📽️ Demo Video
 
-Watch the demo video here: [https://youtu.be/fsmT8BTqffM](https://youtu.be/fsmT8BTqffM)
+Watch the demo video here: [https://youtu.be/DhuLaV3kb3k?si=l3ZRwX78Pv2GeKjM](https://youtu.be/DhuLaV3kb3k?si=l3ZRwX78Pv2GeKjM)
 
 ---
 
